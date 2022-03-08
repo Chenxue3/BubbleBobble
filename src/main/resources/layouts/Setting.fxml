@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="763.0" prefWidth="899.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cw.controller.SettingController">
+   <children>
+      <ImageView fitHeight="876.0" fitWidth="1188.0" layoutX="-310.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bg/indexBg.jpg" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="scene" blendMode="HARD_LIGHT" layoutX="437.0" layoutY="383.0" prefHeight="23.0" prefWidth="119.0" />
+      <ImageView fitHeight="110.0" fitWidth="220.0" layoutX="36.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bg/bgWhite.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="220.0" layoutX="239.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bg/bgYellow.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="220.0" layoutX="649.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bg/bgPink.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="220.0" layoutX="433.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bg/bgBlue.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="60.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bubs/Bub1Right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="258.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bubs/Bub3Right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="457.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bubs/Bub2Right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="629.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bubs/Bub4Right.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="hero" blendMode="HARD_LIGHT" layoutX="437.0" layoutY="585.0" prefHeight="23.0" prefWidth="119.0" />
+      <Text layoutX="78.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue Sky">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="494.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hack">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="287.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Old Story">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="709.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sweet">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="okBtn" fitHeight="73.0" fitWidth="195.0" layoutX="321.0" layoutY="637.0" onMouseClicked="#clickOkBtn" onMouseEntered="#enterOkbtn" onMouseExited="#exitOkBtn" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/btn/click-button.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f4eaea" layoutX="400.0" layoutY="671.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OK">
+         <font>
+            <Font size="25.0" />
+         </font></Text>
+      <Text fx:id="scenceLable" layoutX="308.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a Scene">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="heroLable" layoutX="312.0" layoutY="604.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a Hero">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="87.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Green">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="287.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Red">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="481.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="641.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orange">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5111110982440766">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12353800982236862" green="0.2047392725944519" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="119.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Easy">
+         <font>
+            <Font name="Berlin Sans FB" size="64.0" />
+         </font>
+         <fill>
+            <LinearGradient endY="1.0" startY="0.6870229007633588">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0623391829431057" green="0.43157893419265747" blue="0.2223430871963501" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="312.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Middle">
+         <font>
+            <Font name="Berlin Sans FB" size="64.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.6870229007633588">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.36454036831855774" green="0.4300000071525574" blue="0.06449999660253525" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6700000166893005" green="0.3633898198604584" blue="0.16750000417232513" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="580.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hard">
+         <font>
+            <Font name="Berlin Sans FB" size="64.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.6870229007633588">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.4300000071525574" green="0.4300000071525574" blue="0.06449999660253525" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9969924812030074">
+                     <color>
+                        <Color red="0.6947368383407593" green="0.08491227775812149" blue="0.08491227775812149" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6947368383407593" green="0.08491227775812149" blue="0.08491227775812149" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text fx:id="scenceLable1" layoutX="312.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a Level">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="level" blendMode="HARD_LIGHT" layoutX="433.0" layoutY="130.0" prefHeight="23.0" prefWidth="119.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cw.controller.HelpController">
+   <children>
+      <ImageView fitHeight="964.0" fitWidth="1348.0" layoutX="-45.0" layoutY="-58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bg/indexBg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="55.0" layoutX="51.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/btn/ButtonE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="55.0" layoutX="51.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/btn/buttonLeft.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="55.0" layoutX="51.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/btn/buttonRight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="55.0" layoutX="51.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/btn/buttonUp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="okBtn" fitHeight="64.0" fitWidth="187.0" layoutX="320.0" layoutY="658.0" onMouseClicked="#clickOk" onMouseEntered="#enterOk" onMouseExited="#exitOk" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/btn/click-button.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="168.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shot Bubbles">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.32425081729888916" green="0.2576218247413635" blue="0.621052622795105" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.1120000034570694" green="0.699999988079071" blue="0.19172881543636322" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="167.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Left">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.32425081729888916" green="0.2576218247413635" blue="0.621052622795105" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.1120000034570694" green="0.699999988079071" blue="0.19172881543636322" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="177.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jump">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.32425081729888916" green="0.2576218247413635" blue="0.621052622795105" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.1120000034570694" green="0.699999988079071" blue="0.19172881543636322" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text fill="#dbe7dc" layoutX="387.0" layoutY="689.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Got it!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="169.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Right">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.32425081729888916" green="0.2576218247413635" blue="0.621052622795105" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.1120000034570694" green="0.699999988079071" blue="0.19172881543636322" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <TextArea layoutX="245.0" layoutY="474.0" prefHeight="145.0" prefWidth="356.0" text="When the bubble hits an enemy, the enemy will turn&#10; into bubble form. When the hero touches the enemy&#10; again, the enemy will turn into a fruit. The hero will &#10;add ten points when he eats the fruit. The hero has&#10; three lives per game and loses one life when the &#10;hero touches an enemy directly. The game ends &#10;when all lives are lost.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

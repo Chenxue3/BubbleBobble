@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cw.controller.HighScoreController">
+   <children>
+      <ImageView fitHeight="853.0" fitWidth="1284.0" layoutX="-55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/bg/indexBg.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#548164" fontSmoothingType="LCD" layoutX="217.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congrualation!">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="#548164" fontSmoothingType="LCD" layoutX="49.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You have received the highest score！">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="okBtn" fitHeight="94.0" fitWidth="472.0" layoutX="265.0" layoutY="605.0" onMouseClicked="#clickOk" onMouseEntered="#enterOk" onMouseExited="#exitOk" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../static/img/btn/click-button.png" />
+         </image>
+      </ImageView>
+      <Text fill="#c5d7cb" fontSmoothingType="LCD" layoutX="416.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OK">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
